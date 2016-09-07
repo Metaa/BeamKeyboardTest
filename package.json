@@ -1,0 +1,11 @@
+{
+	"name": "keyboard-test",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"author": "Meta",
+	"license": "MIT",
+	"dependencies": {
+		"interactive-keyboard": "git://github.com/metaa/interactive-keyboard"
+	},
+}

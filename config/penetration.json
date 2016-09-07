@@ -1,0 +1,11 @@
+{
+    "version":6494,
+    "code":"ftso2p2r",
+    "threshold":0.1,
+    "handler": "test",
+    "mouseHandler": "test",
+    "windowTarget":"InputTest",
+    "mouseSource":"screen",
+    "mouseEnabled":true,
+    "consensus": "anarchy"
+}
