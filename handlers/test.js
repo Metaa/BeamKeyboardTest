@@ -4,6 +4,7 @@ module.exports = {
 	press(key) {
 		console.log('press ', key);
 
+		// send the pressed key to a local java program to display it
 		const dgram = require('dgram');
 		const message = 's,' + key;
 		const client = dgram.createSocket('udp4');
