@@ -13,6 +13,7 @@ const mouseExport = {
 	relativeConstrainedMove(x, y) {
 		console.log("relativeConstrainedMove ", x, y);
 
+		// send the coordinates to a local java program to display the position on the screen
 		const dgram = require('dgram');
 		const message = 'c,' + x + ',' + y;
 		const client = dgram.createSocket('udp4');
